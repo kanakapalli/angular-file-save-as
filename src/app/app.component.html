@@ -1,0 +1,6 @@
+<div class="input-container">
+    <div><h3>Enter your text</h3> </div>
+    <textarea [(ngModel)]="fileData" name="" id="" cols="40" rows="10"></textarea>
+</div>
+<br>
+<file-save-as [fileContent]="fileData"></file-save-as>
